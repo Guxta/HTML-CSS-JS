@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ingresso.ico" type="image/x-icon"> <!--colocar iconi no title-->
+    <title>Aulas de HTML5 e CSS3</title>
+    <style>
+        mark {background-color: lime;}
+    </style>
+</head>
+<body>
+    
+    <h1>Parágrafos e quebras de linhas</h1>
+    <hr>
+    <p>Você pode escrever um parágrafo de qualquer jeito basta colocar tudo no meio do par de tags &lt;p&gt; e /p</p>
+    <p>Se precisar quebrar o texto em algum lugar específico <br> como esse, vc pode usar a tag br</p>
+    <p>Vamos adicionar alguns símbolos especiais:
+        &reg;
+        &copy;
+        &trade;
+        &dollar;
+        &cent;
+        &Delta;
+        <br>
+        <img src="css3200.png" alt="Logo CSS3">  
+    </p>
+    <p>Vamos adicionar alguns emoji:
+        &#x1F60A; 
+        &#x1F435;
+    </p>
+    <hr>
+    
+    <h1>Hierarquia de títulos</h1>
+    <h2>Criar sites</h2>
+    <h3>site de ingressos</h3>
+    <p>Sites para qualquer tipo de ingresso e funcionando no windows e mobile</p>
+    <h2>Foco para ser um programador</h2>
+    <h3>Estudar todos os dias</h3>
+    <h4>Ler livros sobre</h4>
+    <br>
+    <hr>
+    
+    <h1>Principais formatações</h1>
+    <h2>Negrito ou destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> onde se usa a tag &lt;b&gt;     
+    
+    <br>-Para deixar em <b><i>italico</i></b> usamos a tag &lt;i&gt; 
+    
+    <br> -E quando colocar em <em>ênfase</em> usa tag &lt;em&gt;
+    
+    <br> -Podemos criar também um <mark> texto marcado</mark> usando a tag &lt;MARK&gt;
+    
+    <br>-Tem possibilidade também de deixar um <big>texto grande</big> usando a tag &lt;big&gt; e deixar <small>pequeno o texto</small> tbm, usando a tag &lt;small&gt;
+    
+    <br>-Deixar <del>um texo excluido,</del> não sendo considerado parar ler com a tag &LT;del&gt;. E um <ins>texto inserido</ins> com a tag &lt;ins&gt;
+    
+    <br> -<u>Sublinhar</u> tag &lt;u&gt;. 
+
+    <br>-Texto sobrescrito x<sup>20</sup>+3
+
+    <br>-Texto subscrito H<sub>2</sub>O
+
+    <br>-A tag &lt;pre&gt; ela é utilizada para considerar tudo da mesma forma que vc digitar na sua ferramente de programação.
+</p>
+<br>
+<hr>
+<h1>Outras formatações</h1>
+<h2>Código-fonte</h2>
+<p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Usa-se a tag &lt;code&gt; para formata uma frase ou palavra para o jeito codigo.</p>
+<h2>Citações simples</h2>
+<p>Como diria o pai de um amigo <q>o computador é um burro muito rápido.</q>. A tag &lt;q&gt; usa para colocar áspas.</p>
+<h2>Citações completas</h2>
+<p>Segundo Maurício Samy Silva, no seu livro Fundamentos de HTML5 e CSS3</p>
+<blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML5+e+CSS3&printsec=frontcover">HTML é a sigla em inglês para <i>HyperText Markup Language</i>.</blockquote>
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="HyperText Mrkup Language"><u>HTML5</u></abbr> e <abbr title="Cascading Style Sheets"><u>CSS3</u></abbr>. Estou adorando!</p>
+<br>
+<hr>
+<H1>Trabalhando com listas</H1>
+<h2>Listas Ordenadas </h2>
+<h3>(Tag &lt;ol&gt; para criar uma lista de ordens e usando a tag &lt;li&gt;)</h3>
+<ol type="I">
+    <li>Acorda</li>
+    <li>Escova os dentes</li>
+    <li>Tomar café da manhã</li>
+</ol>
+<h2>Listas não Ordenadas</h2>
+<h3>(Tag &lt;ul&gt; para listas sem numeração ou sem ordem e usando a tag &lt;li&gt;).</h3>
+<ul type="square"> <!--type (disc, circle e square)-->
+    <li><mark><b>comprar pão</b></mark></li> 
+    <li><mark>comprar arroz</mark></li> 
+    <li><mark>comprar feijão</mark></li> 
+</ul>
+<h2>Linguagens favoritas</h2>
+<ol>
+    <li>Antigas</li>
+    <ol type="A">
+        <li>Clipper</li>
+        <li>Visual Basic</li>
+        <Li>Fortran</Li>
+        <Li>Delphi</Li>
+    </ol>
+    <Li>Novas</Li>
+    <ol type="I">
+        <Li>PHP</Li>
+        <Li>Python</Li>
+        <Li>JavaScript</Li>
+    </ol>
+</ol>
+<h2>Jogos Favoritos</h2>
+<ol>
+    <li>LOL</li>
+    <ul>
+        <li>katarina</li>
+        <li>Jinx</li>
+    </ul>
+    <li>Valorant</li>
+    <ul>
+        <li>Raze</li>
+    </ul>
+    
+</ol>
+<h2>Lista de Definições (tags &lt;dl&gt;, &lt;dt&gt; e &lt;dd&gt;)</h2>
+<dl>
+    <dt><abbr title="HyperText Mrkup Language">HTML5</abbr></dt>
+    <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+    <dt><abbr title="Cascading Style Sheets">CSS3</abbr></dt>
+    <dd>Design para uma pagina na web.</dd>
+</dl>
+<br>
+<hr>
+
+<h1><u><i>Usando links externos</i></u></h1>
+<h2>Usa a tag &lt;a&gt; para colocar um link sobre algo.</h2>
+<p>Exemplo: para acessar o github do guanabara com os <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">pdf das aulas</a>. Usando somente a tag &lt;a&gt; o link te leva pra outra página pórem ela fecha a página atual. E para não acontecer isso e abrir uma nova guia usa-se dentro da tag a o target="_blank" rel="external" exemplo: para acessar o github do guanabara com os <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" rel="external">pdf das aulas.</a>  </p>
+
+<h1>Usando links internos</h1>
+<p>Para acessar a <a href="pag002.html">segunda página</a> do site.</p>
+
+<h1>Links para Download</h1>
+<p>Fazer download da <a href="10 - Ligações em toda parte.pdf" target="_blank" download="10 - Ligações em toda parte.pdf" type="application/pdf" >lição 10</a></p>
+<br>
+<hr>
+<h1>Imagem dinâmica</h1>
+<p>Imagem dinâmica é uma imagem que dar para abrir em varios dispositivo, assim como celular, computador e tablet por exemplo. vamos usar a tag &lt;picture&gt; (que permite dar varios sources) em seguida usa a tag &lt;img&gt; e dentro de picture usa se a tag &lt;source&gt; a onde vai ser sempre o maximo de px e tem q ser na ordem. </p>
+<picture>
+    <source media="(max-width:750px )" srcset="imagens/P.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/M.png" type="image/png">
+    <img src="Imagens/G.png" alt="Imagem flexível">
+</picture>
+<h1>Reproduzindo audio</h1>
+<p>Reproduzindo audio em HTML5 usando a tag &lt;audio&gt; </p>
+<audio src="The Monuments and Tunnels in Goa and Hampi - Bail Bonds.mp3" autoplay controls></audio>
+
+<h1>Colocando vídeos dentro do meu servidor</h1>
+<video src="meu video.m4v" poster="EU e rafaela.jpeg" width="500" height="500" loop controls></video>
+
+<h1>Inserindo videos do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+    
+
+</body>
+</html>
