@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+            div{
+                background-color: aqua;
+                border: 1px solid black;
+                text-align: center;
+                height: 200px;
+                width: 200px;
+                display: inline-block;
+
+            }
+            #d1:hover{
+                background-color: black;
+            }
+            #d2:hover{
+                background-image: linear-gradient(to right, #00000071, #ff000079);
+            }
+            #d3:hover{
+                background-color: bisque;
+            }
+            div > p{
+                display: none;
+            }
+            div:hover > p{
+                display:block;
+                color: black;
+                background-color: red;
+                width: 100px;
+            }
+
+    </style>
+    
+    <title>Pseudo-classes</title>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div style="height: 20px; width: 100px; "> AQUI!
+        <p>Suck-me!</p>
+    </div>
+
+</body>
+</html>
