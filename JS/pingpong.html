@@ -20,6 +20,30 @@
 
       const lineWidth = 15
 
+      const field = {
+        w: window.innerWidth,
+        h: window.innerHeight,
+        draw: function() {
+          canvasCtx.fillStyle = "#286147"
+          canvasCtx.fillRect(0, 0, window.innerWidth, window.innerHeight)
+
+
+        }
+      }
+      
+      const line = {
+        w:15,
+        h: field.h,
+        draw: function() { 
+          canvasCtx.fillStyle = "#ffffff"
+          const x = window.innerWidth / 2 - lineWidth / 2
+          const y = 0
+          const w = lineWidth
+          const h = window.innerHeight
+
+        }
+      }
+
       function setup() {
         canvasEl.width = window.innerWidth 
         canvasCtx.width = window.innerWidth
@@ -28,11 +52,10 @@
       }
 
       function draw() {
-        canvasCtx.fillStyle = "#286147"
-        canvasCtx.fillRect(0, 0, window.innerWidth, window.innerHeight)
+        field.draw()
+        
 
         canvasCtx.fillStyle = "#ffffff"
-        //linha central
         const x = window.innerWidth / 2 - lineWidth / 2
         const y = 0
         const w = lineWidth
