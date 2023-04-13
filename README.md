@@ -1,4 +1,4 @@
-# HTML-E-CSS
- Curso de html5 e css3
+HTML-CSS-JS
 
- Estou gerenciando meu repositorio
+Estudando e praticando , tudo para ser um bom desenvolvedor.
+ 
